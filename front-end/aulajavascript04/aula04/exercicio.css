@@ -1,0 +1,19 @@
+*{margin: 0; padding: 0;}
+
+#titulo{
+    text-align: center;
+}
+
+.loc-menu{
+    float: left;
+    list-style: none;
+    border: 1px solid black;
+}
+.loc-menu ul{
+    float: left;
+    border: 1px solid black;
+}
+.loc-menu li{
+    list-style: none;
+    color: red;
+}

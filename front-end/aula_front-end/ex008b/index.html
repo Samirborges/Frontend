@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 009</title>
+</head>
+<body>
+
+    <h1>Outras formatações</h1>
+    <h2>Codigo fonte</h2>
+    
+    <p>
+        O comando <code>document.getElementById('teste')</code> é escrito
+        em javascript
+    </p> <!--Aqui foi utilizado uma tag chamada code, em que torna as letras mono-espaçadas. Ou seja, elas ocupam o mesmo espaço.-->
+    
+    <p>Meu código em <mark style="background-color: rgb(0, 162, 255);"><b style="color: yellow;">Python</b></mark> em que fiz, ele ficou muito legal!</p>
+    <pre>
+    <code>
+    number = int(input('Digite um número inteiro: '))
+    if number % 2 ==0:
+        print(f'O número {number} é par.')
+    else:
+        print('O número {number} não é par.')
+    print('Fim do programa')
+    </code>
+    </pre>
+
+    <footer>
+        <small>
+            Aqui foi usado uma tag chamada &lt;pre&gt; onde é possível imprimir no html a formatação do texto <br>
+            como é escrito no código, contando todos os espaços.
+        </small>
+    </footer>
+
+    <h2>Citações: Simples</h2>
+    <p>
+        Como diria o pai de um amigo: 
+        <i>
+        <q>
+        O computador é um burro
+        muito rápido.
+        </q>
+        </i>
+    </p>
+    <footer>
+        <small>
+            Nessa seção, foi usada a tag &lt;q&gt; para sematicamente uma abreviação. <br>
+            porém, visualmente foi colocado apenas aspas. O formato itálico fo apenas uma <br>
+            estilização do autor.
+        </small>
+    </footer>
+    <h2>Citações completas</h2>
+    <p>
+        Como diz em Jeremias 17:5: 
+        <blockquote cite="https://www.bible.com/pt/bible/1608/JER.17.5.ARA">
+            Assim diz o SENHOR: Maldito o homem que confia no homem, faz da <br>
+            carne mortal o seu braço e aparta o seu coração do SENHOR!
+        </blockquote>
+    </p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando.</p>
+
+</body>
+</html>

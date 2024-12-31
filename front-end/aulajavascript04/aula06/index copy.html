@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04 de Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Curso de Javascript</h1>
+<p>Aula 04: Escrevendo o "primeiro" código em javascript.</p>
+<section>
+    <h1>Testando uma tag</h1>
+    <p>A tag section serve para fazer algum tipo de divisão?</p>
+</section>
+
+<script>
+    
+    var nome = window.prompt('Digite o seu nome.')
+    document.write(`O seu nome tem ${nome.length} letras. <br/>`)
+    document.write(`O seu nome fica ${nome.toUpperCase()} em maiúscula <br/>`)
+    var preço = Number(window.prompt('Digite o preço de uma mercadoria: '))    
+    document.write(preço.toLocaleString('pt-br', {style: 'currency', currency: 'BRL' }));
+    window.alert()
+</script>
+
+</body>
+</html>

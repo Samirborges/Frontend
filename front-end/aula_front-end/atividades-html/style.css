@@ -1,0 +1,28 @@
+#área{   
+    width: 853px;
+    margin: 0 auto;
+}
+
+#form{
+    margin-left: 12%;
+}
+
+legend{
+    border: 1px solid black;
+}
+
+div{
+    margin-top: 2%;
+}
+
+.dados_pessoais, .org_faixaetaria{
+    display: inline-block;
+}
+
+#localizacao{
+    margin-left: 3%;
+}
+
+.dados_da_pessoa{
+    width: 300px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div id="área">
+    
+    <fieldset>
+        <div id="form">
+            <form id="formulario" autocomplete="off">
+                <fieldset>
+                    <legend>Cadastro Geral</legend>
+                    <div class="dados_pessoais">
+                        <fieldset class="dados_da_pessoa">
+            
+                            <legend>Dados pessoais</legend>
+                            <label>Nome completo:</label><br>
+                            <input class="nome" type="text"><br>
+            
+                            <label>Profissão</label><br>
+                            <select name="profissão" id="profissão">
+                                <option value="">Selecione a sua profissão</option>
+                                <option value="agronomia">Agronomia</option>
+                                <option value="administração">Administração</option>
+                                <option value="arquivologia">Arquivologia</option>
+                                <option value="arquitetura e urbanismo">Arquitetura e Urbanismo</option>
+                                <option value="biblioteconomia">Biblioteconomia</option>
+            
+                            </select>
+                        </fieldset>
+                    </div>
+
+                    <div class="dados_pessoais" id="localizacao">
+                        <fieldset class="dados_da_pessoa">
+            
+                            <legend>Localização</legend>
+                            <label>E-mail:</label><br>
+                            <input type="email"><br>
+            
+                            <label>Rua:</label><br>
+                            <input type="search">
+                        </fieldset>
+                    </div>
+
+                    <div id="faixa_etária">
+                        <fieldset>
+                            <legend>Faixa etária</legend>
+                            <table id="tbl_faixa_etária">
+                                <tr>
+                                    <td>
+                                        <input type="radio" value="até 20 anos" name="faixa_etaria">até 20 anos <br>
+                                    </td>
+                                    <td>
+                                        <input type="radio" value="mais de 40 até 50 anos" name="faixa_etaria">mais de 40 até 50 anos<br>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="radio" value="mais de 20 até 30 anos" name="faixa_etaria">mais de 20 até 30 anos<br>
+                                    </td>
+                                    <td>
+                                        <input type="radio" value="mais de 50 até 60 anos" name="faixa_etaria">mais de 50 até 60 anos<br>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="radio" value="mais de 30 até 40 anos" name="faixa_etaria">mais de 30 até 40 anos<br>
+                                    </td>
+                                    <td>
+                                        <input type="radio" value="mais de 60" name="faixa_etaria">mais de 60
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </div>
+
+                    <div id="esporte_que_pratica">
+                        <fieldset>
+                            <legend>Esporte que pratica</legend>
+                            <input type="checkbox" value="futebol_de_campo">Futebol de campo<br>
+                            <input type="checkbox" value="futebol_de_salao">Futebol de salão<br>
+                            <input type="checkbox" value="volley_de_quadra">Volley de quadra<br>
+                            <input type="checkbox" value="volley_de_praia">Volley de praia<br>
+                            <input type="checkbox" value="natacao_em_piscina">Natação em piscina<br>
+                            <input type="checkbox" value="natacao_em_mar_aberto">Natação em mar aberto<br>
+                        </fieldset>
+                    </div>
+            
+                    <div id="comentario">
+                        <fieldset>
+                            <legend>Comentário</legend>
+                            <p>Mensagem:</p>
+                            <textarea name="mensagem" id="mensagem_cliente" cols="55" rows="10" inputmode="mensagem"></textarea>
+                        </fieldset>
+                    </div>
+                    <div id="botoes_envio">
+                        <input class="botão_env" value="Enviar" type="submit">
+                        <input class="botão_vaz" value="Limpar" type="reset">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</fieldset>
+
+</body>
+</html>

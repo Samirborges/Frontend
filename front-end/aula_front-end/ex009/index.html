@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <p>
+        Quando vamos fazer uma lista de afaseres e númeramos esses itens <br>
+        e aparece um imprevisto que obriga a adicionarmos um item na lista <br>
+        e assim temos que mudar a númeração dos itens posteriores. Porém, <br>
+        existe uma solução. Usando &lt;ol&gt; faremos uma lista ordenada. <br>
+        Dentro do ol colocamos o &lt;li&gt; para se referir aos itens 
+    </p>
+    <p>Exemplo: </p>
+    <ol>
+        <li>Meta 01</li>
+        <li>Meta 02</li>
+        <li>Meta 03</li>
+    </ol>
+
+    <h2>Listas não ordenadas</h2>
+    <p>Lista que não possui númeração.</p>
+    <ul>
+        <li>Comprar leite</li>
+        <li>Comprar biscoito</li>
+        <li>Comprar carne</li>
+    </ul>
+
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a", start="5">
+            <li>Python</li>
+            <li>Java</li>
+        </ol>
+    </ol>
+    
+    <q cite="https://www.youtube.com/watch?v=Ez1kgIyoGuE&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=26">
+        A titulo de curiosidade: O certo seria colocar em linguagens novas <br>
+        começar com a, b, c... Porém, no curso, foi relembrado o parametro strart na <br>
+        lista ordenada.
+    </q>
+    
+    <h2><mark style="background-color: rgb(0, 255, 0);">Jogos que mais joguei</mark></h2>
+    <ol>
+        <li>XBOX 360</li>
+        <ul type="square">
+            <li>Just Cause 2</li>
+            <li>Hidro Tunder</li>
+        </ul>
+        <li>Emulador de computador [Nitendo]</li>
+        <ul type="square">
+            <li>Spaider</li>
+            <li>Top Gear</li>
+            <li>Top Gear 2</li>
+            <li>Strike Gunner</li>
+            <li>Bomberman 2</li>
+        </ul>
+        <li>Computador</li>
+        <ul type="square">
+            <li>Minecraft</li>
+        </ul>
+        <li>Celular</li>
+        <ul type="square">
+            <li>Minecraft BE</li>
+            <li>Crash of Cars</li>
+            <li>Tomb of the Mask</li>
+        </ul>
+    </ol>
+
+    <h2>Lista de descrição:</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para inserção do conteúdo na página</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a estilização do HTML da página</dd>
+        <dt>Javascript</dt>
+        <dd>Linguagem de programação feita para a criação de interatividade e de recursos adicionais na página</dd>
+    </dl>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar</title>
+</head>
+<body>
+    <h1>Verificador de nacionalidade</h1>
+    <form id="form" autocomplete="off">
+        <fieldset>
+            <legend>Digite o nome do seu país</legend>
+            <input type="text" name="text-pais" id="text-pais"> <br>
+            <input type="button" value="Verificar" onclick="mostrarNacionalidade()">
+
+            <h2>Sua nacionalidade</h2>
+            <div id="res">
+                
+            </div>
+        </fieldset>
+    </form>
+
+    <script>
+        function mostrarNacionalidade(){
+            var pais = document.getElementById('text-pais')
+            pais = String(pais.value)
+            var res = document.querySelector('div#res')
+            res.innerHTML = `<p>Você vive em ${pais} logo...</p>`
+
+            if (pais == "Brasil"){
+                res.innerHTML += `<p>A sua nacionalidade é: Brasileira</p>`
+            } else{
+                res.innerHTML += `<p>A sua nacionalidade é estrangeira</p>`
+            }
+        }
+    </script>
+</body>
+</html>
